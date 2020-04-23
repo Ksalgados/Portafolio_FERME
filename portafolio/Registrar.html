@@ -14,8 +14,11 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/shop-homepage.css" rel="stylesheet">
+  <link href="css/registrar.css" rel="stylesheet">
 
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+  
 </head>
 
 <body>
@@ -51,27 +54,38 @@
   <!-- Page Content -->
   <div class="container">
 
-    <div class="row">
+  <div class="row">
+     <div class="testbox">
+      <h1>Registration</h1>
 
-      <div class="col-lg-3">
-        <h1 class="my-4">Menú</h1>
-        <div class="list-group">
-          <a href="#" class="list-group-item active">Terraza</a>
-          <a href="#" class="list-group-item">Dormitorio</a>
-          <a href="#" class="list-group-item">Cocina</a>
-          <a href="#" class="list-group-item">Construcción</a>
-          <a href="#" class="list-group-item">Pisos</a>
-          <a href="#" class="list-group-item">Murallas</a>
-          <a href="#" class="list-group-item">Fachadas</a>
-          <a href="#" class="list-group-item">Decoración<a>
-          <a href="#" class="list-group-item">Limpieza</a>
-          <a href="#" class="list-group-item">Otros</a>
-        </div>
-      </div>
-      </div>
+  <form action="/">
+      <hr>
+    <div class="accounttype">
+      <input type="radio" value="None" id="radioOne" name="account" checked/>
+      <label for="radioOne" class="radio" chec>Personal</label>
+      <input type="radio" value="None" id="radioTwo" name="account" />
+      <label for="radioTwo" class="radio">Company</label>
     </div>
-
-      
+  <hr>
+  <input type="text" name="name" id="name" placeholder="Rut" required/>
+  <input type="text" name="name" id="name" placeholder="Nombre" required/>
+  <input type="text" name="name" id="name" placeholder="Apellido Paterno" required/>
+  <input type="text" name="name" id="name" placeholder="Apellido Materno" required/>
+  <input type="text" name="name" id="name" placeholder="Dirección" required/>
+  <input type="number" name="name" id="name" placeholder="Télefono" required/>
+  <input type="text" name="name" id="name" placeholder="Usuario" required/>
+  <input type="password" name="name" id="name" placeholder="Password" required/>
+  <div class="gender">
+    <input type="radio" value="None" id="male" name="gender" checked/>
+    <label for="male" class="radio" chec>Male</label>
+    <input type="radio" value="None" id="female" name="gender" />
+    <label for="female" class="radio">Female</label>
+   </div> 
+   <p>haz click en registrar y aceptaras los <a href="#">terminos y condiciones</a>.</p>
+   <a href="#" class="button">Registrar</a>
+  </form>
+</div>
+    </div>
   <footer class="py-5 bg-dark">
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
