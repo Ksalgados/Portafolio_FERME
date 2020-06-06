@@ -1,0 +1,17 @@
+#contenedor {
+    width: 700px;
+}
+
+#menu {
+    float: left;
+    width: 150px;
+}
+
+#contenido {
+    float: left;
+    width: 550px;
+}
+
+#pie {
+    clear: both;
+}
