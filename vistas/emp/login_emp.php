@@ -3,7 +3,7 @@
 	$obj= new conectar();
 	$conexion=$obj->conexion();
 
-	$sql="SELECT * from usuarios where email='admin'";
+	$sql="SELECT * from usuarios where id_tip_user=40";
 	$result=mysqli_query($conexion,$sql);
 	$validar=0;
 	if(mysqli_num_rows($result) > 0){

@@ -10,8 +10,6 @@
 	$_POST['password']
 	);
 
-	
-
 	echo $obj->loginUser($datos);
 
  ?>

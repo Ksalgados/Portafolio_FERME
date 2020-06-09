@@ -71,9 +71,26 @@
                 <td></td>
             </tr>
             <tr>
-                <td><button class="btn btn-outline-success"><a href="../template/pagar.php">PAGAR</a></button></td>
+               <td colspan="5">
+                <form action="pagar.php" method="post">
+                    <div class="alert alert-success" role="alert">
+                    <div class="form-group">
+                        <label for="my-input">Correo de Contacto</label>
+                        <input id="email" class="form-control" 
+                        type="email" 
+                        name="email"
+                        placeholder="Por Favor Escribir tu correo"
+                        required>
+                    </div>
+                    <small id="emailHelp"
+                    class="form-text text-muted">
+                    Los Productos se enviaran a este correo
+                    </small>
+                    </div>
+                    <button class="btn btn-primary btn-lg btn-block" type="submit">Realizar Pago >> </button>
+                </form>
+                
             </tr>
-
         </tbody>
     </table>
         <?php }else{?>

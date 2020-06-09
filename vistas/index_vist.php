@@ -27,6 +27,11 @@
     <?php
   include '../php/galeria.php';
 ?>
+<img src="https://www.sodimac.cl/static/MEJORAS/2020/images/banner-especial-seguridad.jpg" class="img-fluid" alt="Responsive image">
+
+<?php
+  include 'footer.php';
+?>
 </body>
 
 </html>

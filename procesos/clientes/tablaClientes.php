@@ -22,7 +22,6 @@
 	 	<caption><label>Clientes :)</label></caption>
 	 	<tr>
 			<td>Rut</td>
-			<td>DV</td>
 	 		<td>Nombre</td>
 			<td>Apellido</td>
 			<td>Usuario</td>

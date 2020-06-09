@@ -37,7 +37,7 @@
                 echo (empty($_SESSION['CARRITO']))?0:count($_SESSION['CARRITO']);
             ?>)
         </a>
-        <a class="btn btn-outline-success my-1 my-sm-0" href="carrito_vist.php" style="background:url(https://icon-icons.com/icons2/606/PNG/32/shopping-cart_icon-icons.com_56125.png) no-repeat; border:none; width:32px; height:32px;" ></a>
+        <a class="btn btn-outline-success my-1 my-sm-0" href="carrito_vist.php" style="background:url(../img/carrito.png) no-repeat; border:none; width:32px; height:32px;" ></a>
         </form>
         </li>
         <li class="nav-item">

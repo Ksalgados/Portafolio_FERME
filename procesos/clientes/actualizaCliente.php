@@ -8,13 +8,12 @@ session_start();
 
 
 	$datos=array(
-			$_POST['idclienteU'],
-			$_POST['nombreU'],
-			$_POST['apellidosU'],
-			$_POST['direccionU'],
-			$_POST['emailU'],
-			$_POST['telefonoU'],
-			$_POST['rfcU']
+			$_POST['rut'],
+			$_POST['nombre'],
+			$_POST['apellidos'],
+			$_POST['usuario'],
+			$_POST['direccion'],
+			$_POST['telefono'],
 				);
 
 	echo $obj->actualizaCliente($datos);

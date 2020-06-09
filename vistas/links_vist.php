@@ -11,9 +11,18 @@
 </script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>
-window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')
+window.jQuery || document.write('<script src="../js/jquery-1.11.2.min.js"><\/script>')
 </script>
-<script src="js/modernizr.js"></script>
-<script src="js/main.js"></script>
-<script src="js/album.js"></script>
-<link href="css/album.css" rel="stylesheet">
+<script src="../js/modernizr.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/album.js"></script>
+<link href="../css/album.css" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="../librerias/alertifyjs/css/alertify.css">
+<link rel="stylesheet" type="text/css" href="../librerias/select2/css/select2.css">
+
+<script src="../librerias/jquery-3.2.1.min.js"></script>
+<script src="../librerias/alertifyjs/alertify.js"></script>
+<script src="../librerias/bootstrap/js/bootstrap.js"></script>
+<script src="../librerias/select2/js/select2.js"></script>
+<script src="../js/funciones.js"></script>

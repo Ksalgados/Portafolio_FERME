@@ -16,6 +16,6 @@
 </html>
 <?php 
 	}else{
-		header("location:../index.php");
+		header("location:.index_vist.php");
 	}
  ?>
